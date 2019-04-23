@@ -33,6 +33,7 @@ on fs
     chmod 0664 /dev/ion
     chown system system /dev/ion
     install_keyring
+    export ANDROID_ROOT /system_root
 
 on init
     mkdir /system/bin
