@@ -1,7 +1,7 @@
 # android_device_xiaomi_perseus
-For building TWRP for Xiaomi Mi MIX 3
+For building TWRP for Xiaomi Mi Mix 3
 
-TWRP device tree for Xiaomi Mi MIX 3
+TWRP device tree for Xiaomi Mi Mix 3
 
 ## Features
 
@@ -10,8 +10,16 @@ Works:
 - ADB
 - Decryption of /data
 - Screen brightness settings
-- Vibration on touch 
-- Correct screenshot color 
+- Correct screenshot color
+- MTP
+- Flashing (opengapps, roms, images and so on)
+- Backup/Restore (Needs more testing)
+- USB OTG
+- Android Q Support
+
+TO-DO:
+
+- Vibration support
 
 ## Compile
 
@@ -41,14 +49,9 @@ To test it:
 ```
 fastboot boot out/target/product/perseus/recovery.img
 ```
-## Contributors
-
-[Here](https://github.com/TeamWin/android_device_xiaomi_perseus/graphs/contributors)
 
 ## Other Sources
 
-Kernel Sources: https://github.com/Demon000/kernel_xiaomi_sdm845
 
 ## Thanks
 
-- Thanks to @notsyncing for the base: https://github.com/notsyncing/android_device_xiaomi_polaris
